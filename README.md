@@ -22,7 +22,7 @@ PyramidBox-Lite是基于2018年百度发表于计算机视觉顶级会议ECCV 20
 
 ### 3.模型效果展示
 
-![效果展示](F:\Cqh_files\2020百度菁英俱乐部\知乎\效果展示.png)
+![效果展示](https://ai-studio-static-online.cdn.bcebos.com/81707e21b7f244a28a0b5c7b66bf21cc05f779fa5913432eac193049a7c88e67)
 
 ### 4. YOLO
 
@@ -36,7 +36,7 @@ APP使用了YOLO3模型
 
 PyramidBox使用了与 S^3^FD完全相同的主干网络，包括基础卷积层和额外卷积层。基础卷积层即为 VGG16 中的 conv1_1 层到 pool5 层，额外卷积层将 VGG16 中的 fc6 层和 fc7 层转换为 conv_fc 层，又添加了更多的卷积层使网络变得更深。
 
-![image-20200322182336427](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322182336427.png)
+![image-20200322182336427](https://ai-studio-static-online.cdn.bcebos.com/fc7daea935df41619b5f80d18b8bd7b08857e6e6f6dd49c993dbcafdb1a6ee49)
 
 创新点：
 
@@ -50,7 +50,7 @@ PyramidBox使用了与 S^3^FD完全相同的主干网络，包括基础卷积层
 
 ### 2. yolo3
 
-![image-20200322183110802](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322183110802.png)
+![image-20200322183110802](https://ai-studio-static-online.cdn.bcebos.com/4bfdac0c66c14241ab3bcc2ccef7113d13c7707f7638465aa5a9ba22c7671a67)
 
 优点：
 
@@ -195,7 +195,7 @@ cv2.destroyAllWindows()
 
 使用该软件的作用也仅是获取GUI的代码
 
-![image-20200322183904301](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322183904301.png)
+![image-20200322183904301](https://ai-studio-static-online.cdn.bcebos.com/0a358734572741fa823f440eac239ce119a2392179a44960bff670bce34214ae)
 
 其对应代码如下
 
@@ -262,9 +262,9 @@ class MyFrame1 ( wx.Frame ):
 
 此时实现的功能为选择摄像头与开启检测
 
-![image-20200322185529852](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322185529852.png)
+![image-20200322185529852](https://ai-studio-static-online.cdn.bcebos.com/daf2d16c4a8d4d7695090b17ae44445d9324e76a6edd4bea9524bccd39be8246)
 
-![image-20200322185605716](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322185605716.png)
+![image-20200322185605716](https://ai-studio-static-online.cdn.bcebos.com/547d933716fe4d74859356b7cedb1adc112ec6d096004abda54d82546d0b0a18)
 
 对应代码
 
@@ -550,7 +550,7 @@ app.MainLoop()
 
 效果图
 
-![图片1](F:\Cqh_files\2020百度菁英俱乐部\知乎\图片1.png)
+![图片1](https://ai-studio-static-online.cdn.bcebos.com/c3c8f5eeaa5d43968e27218db49059bdc81ec1aecfd145b8ad1a54b62a5084d7)
 
 为了增加测试难度，我用手机找了一张人多的照片，而效果也非常不错，当然这确实是视频实时检测的。
 
@@ -687,9 +687,9 @@ main_box.mainloop()
 
 效果
 
-![image-20200322195209612](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322195209612.png)
+![image-20200322195209612](https://ai-studio-static-online.cdn.bcebos.com/a085e76fb15e491f92ff411358783e92ca3312312e094ef7998cac55e4f323ef)
 
-![image-20200322195220960](F:\Cqh_files\2020百度菁英俱乐部\知乎\image-20200322195220960.png)
+![image-20200322195220960](https://ai-studio-static-online.cdn.bcebos.com/872eba83a9654e388d6e40d70a7aede1d7b9428b584340668ee3eb93969d39b2)
 
 #### 4. 完整代码
 
@@ -794,7 +794,7 @@ main_box.mainloop()
 
 
 
-![图片2](F:\Cqh_files\2020百度菁英俱乐部\知乎\图片2.png)
+![图片2](https://ai-studio-static-online.cdn.bcebos.com/4c642303df61436f8021e6b957cfea7d3344ba7e0cc445ad8ea255282eb9a1e1)
 
 ## 六、优化和提升
 
